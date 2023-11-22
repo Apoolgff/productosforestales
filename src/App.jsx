@@ -4,6 +4,7 @@ import Contactenos from "./components/Contactenos";
 import Productos from "./components/Productos";
 import Nosotros from "./components/Nosotros";
 import Navbar from "./components/Navbar"; 
+import Hero from "./components/Hero";
 
 function App() {
   return (
