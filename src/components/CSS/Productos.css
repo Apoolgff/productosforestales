@@ -1,0 +1,16 @@
+.productos-container {
+    
+    height: 520px;
+    background-color: #FFFFFF;
+    
+}
+.productos {
+    display: flex;
+    flex-direction: column;
+    padding: 36px 104px;
+    gap: 16px;
+}
+.productos p {
+    color:#6B6B6B;
+    ;
+}

@@ -1,18 +1,21 @@
 
+
 .navbar {
-    height: 70px;
+    height: 96px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 30px; 
     background-color: #ffffff;
     color: #000000;
   }
   
-  .logo img {
-    height: 70px;
-    width: 300px;
-    padding: 5px;
+  .logo-container {
+    width: 245px;
+    height: 71px;
+    margin-left: 49px;
+  }
+  .logo {
+    width: 100%;
   }
   
   .nav-links {

@@ -4,7 +4,7 @@ import Contactenos from "./components/Contactenos";
 import Productos from "./components/Productos";
 import Nosotros from "./components/Nosotros";
 import Navbar from "./components/Navbar"; 
-import Hero from "./components/Hero";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -19,6 +19,7 @@ function App() {
         </Route>
         <Route path="/home" element={<Navigate replace to="/" />} />
       </Routes>
+      <Footer />
     </>
   );
 }
