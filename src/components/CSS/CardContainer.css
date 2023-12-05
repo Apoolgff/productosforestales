@@ -1,0 +1,37 @@
+.card {
+    /*border: 2px solid #000000;*/
+    overflow: hidden;
+    margin: 10px;
+    max-width: 300px;
+  }
+
+  .card-container{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .card img {
+    width: 300PX;
+    height: auto;
+  }
+  
+  .card-content {
+    text-align: center;
+    max-height: 150px;
+    margin: 10px auto;
+  }
+  
+  .card-content p {
+    margin: 15px 0;
+    font-weight: bold;
+  }
+  
+  .card button {
+    background-color: #126B3A;
+    color: #fff;
+    padding: 8px 16px;
+    border: none; 
+    cursor: pointer;
+    width: 100%;
+  }
+  
