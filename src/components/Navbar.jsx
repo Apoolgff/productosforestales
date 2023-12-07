@@ -11,19 +11,19 @@ function Navbar() {
             </div>
       <ul className="nav-links">
         <li>
-          <Link to="/nosotros">Nuestra Empresa</Link>
+          <Link className="nav-links_text" to="/nosotros">Nuestra Empresa</Link>
         </li>
         <li>
-          <Link to="/productos">Operaciones</Link>
+          <Link className="nav-links_text" to="/productos">Operaciones</Link>
         </li>
         <li>
-          <Link to="/contacto">Sosteniblidad</Link>
+          <Link className="nav-links_text" to="/contacto">Sosteniblidad</Link>
         </li>
         <li>
-          <Link to="/contacto">Novedades</Link>
+          <Link className="nav-links_text" to="/contacto">Novedades</Link>
         </li>
         <li>
-          <Link to="/contacto">Contactenos</Link>
+          <Link className="contactenos" to="/contacto">Contactenos</Link>
         </li>
       </ul>
     </nav>

@@ -1,5 +1,4 @@
 
-
 .navbar {
     height: 96px;
     display: flex;
@@ -26,8 +25,25 @@
   .nav-links li {
     margin-right: 35px; 
   }
+ 
   
-  .nav-links a {
+  .contactenos {
+    display: flex;
+    width: 137px;
+    height: 30px;
+    background: #126B3A;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 27px;
+    color: #ffffff;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .nav-links_text {
+    display: flex;
+    align-items: center;
+    height: 30px;
     text-decoration: none;
     color: #000000;
   }
